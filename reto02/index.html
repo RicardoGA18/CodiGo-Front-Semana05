@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 02 :)</title>
+</head>
+<body>
+    <h1>Reto 02</h1>
+    <p>Desarrolle el siguiente algoritmo:
+    “El náufrago satisfecho” ofrece hamburguesas sencillas, dobles y triples,las cuales tienen un costo de $20.00, $25.00 y $28.00 respectivamente. La empresa acepta tarjetas de crédito con un cargo de 5 % sobre la compra.
+    Suponiendo que los clientes adquieren sólo un tipo de hamburguesa, realice un algoritmo para determinar cuánto debe pagar una persona por N hamburguesas.
+    </p>
+    <img src="tabla.png">
+    <h2>Solución</h2>
+    <form id="form">
+        <label>
+            Ingrese el numero de Sandwiches
+            <input type="number" id="num" required>
+        </label>
+        <select id="tipo" required>
+            <option value="">Seleciona el tipo de hamburguesa</option>
+            <option value="sen">Sencilla</option>
+            <option value="dob">Doble</option>
+            <option value="tri">Triple</option>
+        </select>
+        <button type="submit">Calcular</button>
+    </form>
+    <p id="resultado"></p>
+    <script src="app.js"></script>
+</body>
+</html>
